@@ -1,5 +1,3 @@
-'Chemformula
-'Changes a chemical formula to the correct format
 Sub Chemformula()
 For Each cl In Selection.Cells
 ntr = InStr(1, UCase(Range(cl.Address)), "H2O2") + _
